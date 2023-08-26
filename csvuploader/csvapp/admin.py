@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import UploadedFile
+from .models import StudentData
 
-# Register your models here.
+admin.site.register(StudentData)
+
+admin.site.register(UploadedFile)
